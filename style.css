@@ -17,15 +17,22 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: aqua;
+    color: darkblue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.Paragraph_Text{
+    color: darkblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+}
 
 .Home_Page{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: aqua;
+    color: darkblue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
