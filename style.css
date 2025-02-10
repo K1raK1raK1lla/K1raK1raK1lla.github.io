@@ -5,7 +5,7 @@ body{
 
 nav{
     color: aqua;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT';
     font-size: xx-large;
 }
 
@@ -18,12 +18,12 @@ p{
     align-items: center;
     justify-content: center;
     color: darkblue;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans';
 }
 
 .Paragraph_Text{
     color: darkblue;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans';
     align-items: center;
     justify-content: center;
     font-size: large;
@@ -34,7 +34,7 @@ p{
     align-items: center;
     justify-content: center;
     color: darkblue;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans';
 }
 
 .fade-in {
@@ -52,4 +52,92 @@ p{
 	100% {
 		opacity: 1;
 	}
+}
+
+.ImageBoxShadow{
+    box-shadow: 10px 10px pink;
+}
+
+.Box{
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #add8e6;
+    box-shadow: 10px 10px #ffc0cb;
+}
+
+.Box2{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #add8e6;
+    box-shadow: 10px 10px #ffc0cb;    
+}
+  
+
+.Box3{
+    width: 600px;
+    height: 100px;
+    display: flex;
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+    background-color: #add8e6;
+    box-shadow: 10px 10px #ffc0cb;
+}
+
+.Box4{
+    width: 400px;
+    height: 100px;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #add8e6;
+    box-shadow: 10px 10px #ffc0cb;
+}
+
+.Box5{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #add8e6;
+    box-shadow: 10px 10px #ffc0cb;
+}
+
+.Box6{
+    width: 150px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #add8e6;
+    box-shadow: 10px 10px #ffc0cb;    
+}
+
+.Box7{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #add8e6;
+    box-shadow: 10px 10px #ffc0cb;
+}
+
+.Box8{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #add8e6;
+    box-shadow: 10px 10px #ffc0cb;    
 }
