@@ -1,12 +1,20 @@
 body{
     background-color: rgb(216, 112, 147);
+}
 
+a
+{
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    align-items: center;
 }
 
 nav{
-    color: aqua;
-    font-family: 'Gill Sans', 'Gill Sans MT';
+    color: darkblue;
+    font-family: montserrat;
     font-size: xx-large;
+    font-weight: bold;   
 }
 
 hr{
@@ -17,13 +25,13 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: darkblue;
-    font-family: 'Gill Sans';
+    color: black;
+    font-family: montserrat;
 }
 
 .Paragraph_Text{
-    color: darkblue;
-    font-family: 'Gill Sans';
+    color: black;
+    font-family: montserrat;
     align-items: center;
     justify-content: center;
     font-size: large;
@@ -33,8 +41,8 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: darkblue;
-    font-family: 'Gill Sans';
+    color: black;
+    font-family: montserrat;
 }
 
 .fade-in {
@@ -52,6 +60,22 @@ p{
 	100% {
 		opacity: 1;
 	}
+}
+
+ul
+{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+iframe
+{
+    padding-right: 10px;
+}
+
+li
+{
+    list-style-type: none;
 }
 
 .ImageBoxShadow{
@@ -113,8 +137,8 @@ p{
 }
 
 .Box6{
-    width: 150px;
-    height: 300px;
+    width: 120px;
+    height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -140,4 +164,22 @@ p{
     align-items: center;
     background-color: #add8e6;
     box-shadow: 10px 10px #ffc0cb;    
+}
+
+.Box9
+{
+    width: 180px;
+    height: 120px;
+    background-color: #add8e6;
+    box-shadow: 10px 10px #ffc0cb;
+    display: inline-flex;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.montserrat-webFont {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
 }
